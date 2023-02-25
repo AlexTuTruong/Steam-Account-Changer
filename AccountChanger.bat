@@ -11,6 +11,7 @@ echo(
 echo                                      Select your account
 echo                            =======================================
 echo(
+@REM Change strings to desired display username
 echo 1) "AccountOne"
 echo 2) "AccountTwo"
 echo 3) "AccountThree"
@@ -21,6 +22,7 @@ CHOICE /N /M "Press [1, 2, 3, 4]:" /C 1234
 
 goto %errorlevel%
 
+@REM Change strings in each label to desired login username
 :1
 set username="accountOne"
 Goto end
