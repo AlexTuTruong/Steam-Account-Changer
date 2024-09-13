@@ -1,3 +1,6 @@
+# This tool is no longer useful as Steam now has a built in account changer with a GUI which you can learn about [here](https://www.youtube.com/watch?v=WmkP8dxm9eM).
+
+
 # Steam Account Changer
 
 A windows tool to change between steam accounts quickly by modifying the registry
